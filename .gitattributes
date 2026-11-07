@@ -1,0 +1,6 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+# Preserve hashes used by calibration/protocol identities across Git checkouts.
+data/** -text
+configs/*.json -text
